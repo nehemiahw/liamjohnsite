@@ -1,0 +1,9 @@
+#logo {
+    opacity: 0.5;
+}
+
+#logo-jumbotron {
+    background-image: url('./assets/logo.jpg');
+    zoom: 400%;
+}
+

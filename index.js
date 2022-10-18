@@ -1,11 +1,11 @@
 import express from 'express';
-import path from 'path';
-import {readFileSync} from 'node:fs';
 
 
 const PORT = 1337 || process.env.PORT;
 
 const app = express();
+
+app.use(express.static('public/assets/'));
 
 
 app.get("/", function(req, res){
