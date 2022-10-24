@@ -1,10 +1,12 @@
-#logo {
-    opacity: 0.5;
-    zoom: 200%;
+#logo-jumbotron {
+    background-image: url('/logo.jpg');
 }
 
-#logo-jumbotron {
-    background-image: url('./assets/logo.jpg');
+#home-logos:hover{
+    opacity: 0.5;
+}
+
+#gallery-photo:hover{
     opacity: 0.5;
 }
 
