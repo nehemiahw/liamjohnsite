@@ -1,10 +1,10 @@
 #logo {
     opacity: 0.5;
+    zoom: 200%;
 }
 
 #logo-jumbotron {
     background-image: url('./assets/logo.jpg');
-    zoom: 1000%;
     opacity: 0.5;
 }
 

@@ -1,15 +1,14 @@
-import express from 'express';
+const express = require("express");
+const path = require("path");
 
 
 const PORT = 1337 || process.env.PORT;
-
 const app = express();
 
-app.use(express.static('public/assets/'));
-
+app.use(express.static('public'))
 
 app.get("/", function(req, res){
-    res.sendFile("index.html", {root: './public'});
+    res.sendFile(path.join(__dirname, "/client/views/index.html"));
 });
 
 app.listen(PORT, function(){
